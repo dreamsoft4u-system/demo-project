@@ -1,2 +1,2 @@
-FROM tomcat:8
-COPY target/*.war /usr/local/tomcat/webapps/
+FROM /opt/webapps
+ADD /var/www/html
